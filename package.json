@@ -1,0 +1,21 @@
+{
+  "name": "codemirror-closebrackets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "clean": "rm -rf dist .cache"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@codemirror/next": "^0.16.0",
+    "parcel-bundler": "^1.12.4"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  }
+}
